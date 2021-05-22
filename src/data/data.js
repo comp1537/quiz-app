@@ -8,8 +8,8 @@ let qa = {
         answer: 4
     },
     3: {
-        question: 'What is 2 - 2',
-        answer: 0
+        question: 'What is 10 - 2',
+        answer: 8
     },
     4: {
         question: 'What is 10 / 2',
