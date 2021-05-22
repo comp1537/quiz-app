@@ -1,0 +1,66 @@
+section.App {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: 0 auto;
+}
+
+section.App div {
+  flex-grow: 1;
+  padding: 3%;
+}
+
+section.App .controlAndQuiz {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.controlAndQuiz div {
+  display: flex;
+  justify-content:space-between;
+}
+
+.controlAndQuiz button {
+  border: 0;
+  color: #495069;
+  background-color: 4px;
+  height: 50px;
+  margin: 5px;
+  font-size: 20px;
+  box-shadow: 0 4px rgba(0,0,0,0.2);
+}
+
+.controlAndQuiz button:hover {
+  border: 0 solid #000;
+    color: #495069;
+    background-color: #8f5fda;
+    border-radius: 4px;
+    box-shadow: 0 4px #644294;
+}
+
+section.App div:nth-child(1) {
+  background-color: #dbe0cf;
+}
+
+section.App div:nth-child(2) {
+  background-color: #a9bd7e;
+}
+
+.quizFinishedNote {
+  background-color: palevioletred;
+  color: #000;
+  font-size: larger;
+  text-align: center;
+  padding: 3%;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1 span {
+  background-color: teal;
+  color: white;
+  padding: 50px;
+  border-radius: 20%;
+}

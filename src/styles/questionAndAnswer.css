@@ -1,0 +1,30 @@
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.green, .red {
+    text-align: center;
+    color: white;
+}
+
+.questionAndAnswer .question {
+    background-color: black !important;
+    color: white;
+    font-weight: bold;
+    padding: 50px;
+}
+
+.questionAndAnswer button {
+    background-color: yellow;
+    color: black;
+    outline: none;
+}
+
+input {
+    height: 50px;
+    font-size: larger;
+}
